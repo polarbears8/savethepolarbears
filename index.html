@@ -1,12 +1,53 @@
-<html>
-    <body style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
-        <a href="aboutme.html">About Me</a>
-        <h1 style="color: lightblue;">Save the Polar Bears</h1>
-            <p style="font-style: italic;">We want to save the polar bears</p>
-            <div id="saveit">
-                <input id="savewhat" placeholder="what to save" type="text">
-                <button onclick="document.getElementById('saveit').innerText = 'Save the ' + document.getElementById('savewhat').value + '!'">Click me!</button>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Polar Bears</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+             <h1>Save the Polar Bears</h1>
+        </header>
+        <nav>
+            <a href="index.html">HOME</a>
+             <a href="aboutme.html">ABOUT ME</a>
+             <a href="">FORM</a>
+             <a href="">PETITION</a>
+        </nav>
+        <section>
+                <h2>We want to save the polar bears</h2>
+                <div id="saveit">
+                    <input id="savewhat" placeholder="what to save" type="text">
+                    <button onclick="document.getElementById('saveit').innerText = 'Save the ' + document.getElementById('savewhat').value + '!'">Click me!</button>
+                </div>
+        </section> 
+        <section>
+            <h2>Polar Bears are endangered</h2>
+            <ul class="list-cause">
+                <li>Reduce energy</li>
+                <li>Save water</li>
+                <li>Reduce waste</li>
+            </ul>
+        </section>
+        <section>
+                <h2>Image Gallery</h2>
+                <div class="gallery">
+                    <img src="./img/Bear.png" alt="diving polar bear">
+                    <div class="desc">Diving polar bear</div>
+                </div>
+                <div>
+                    <img src="./img/Water.png" alt="Polar Bear in the Water">
+                    <div class="desc">Polar Bear in the Water</div>
+                </div>
+                <div class="gallery">
+                    <img src="./img/Polar Bear in the sun.png" alt="Polar Bear in the sun">
+                    <div class="desc">Polar Bear in the sun</div>
             </div>
+        </section>
+        <FOOTER>
+            <p class="creator">Created by Debbie</p>
+        </FOOTER>
     </body>
 
-</html>
+</html> 
